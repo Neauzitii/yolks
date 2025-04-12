@@ -38,7 +38,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: ${{ secrets.GH_TOKEN }}
       - uses: docker/build-push-action@v5
         with:
           context: ./nodejs
@@ -46,4 +46,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/yolks:nodejs_${{ matrix.tag }}
+            ghcr.io/neauzitii/yolks:nodejs_${{ matrix.tag }}
