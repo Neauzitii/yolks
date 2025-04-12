@@ -9,7 +9,7 @@ export INTERNAL_IP
 export DOTNET_ROOT=/usr/share/
 
 # print the dotnet version on startup
-printf "\x1b[34myolks\x1b[0m\x1b[38;5;221m@\x1b[0m\x1b[92mneauzitii\x1b[0m\x1b[97m:\x1b[0m\x1b[38;5;110m~ \x1b[0m\x1b[38;5;221m$\x1b[0mdotnet --version\n"
+printf "\x1b[34myolks\x1b[0m\x1b[38;5;221m@\x1b[0m\x1b[92mneauzitii\x1b[0m\x1b[97m:\x1b[0m\x1b[38;5;110m~\x1b[0m\x1b[38;5;221m$ \x1b[0mdotnet --version\n"
 dotnet --version
 
 # Replace Startup Variables

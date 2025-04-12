@@ -12,7 +12,7 @@ export INTERNAL_IP
 cd /home/container || exit 1
 
 # Print minetest version
-printf "\x1b[34myolks\x1b[0m\x1b[38;5;221m@\x1b[0m\x1b[92mneauzitii\x1b[0m\x1b[97m:\x1b[0m\x1b[38;5;110m~ \x1b[0m\x1b[38;5;221m$\x1b[0mluanti --version\n"
+printf "\x1b[34myolks\x1b[0m\x1b[38;5;221m@\x1b[0m\x1b[92mneauzitii\x1b[0m\x1b[97m:\x1b[0m\x1b[38;5;110m~\x1b[0m\x1b[38;5;221m$ \x1b[0mluanti --version\n"
 luanti --version
 
 # Replace Startup Variables
