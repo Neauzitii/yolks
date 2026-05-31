@@ -1,7 +1,7 @@
 # ---------------------------------------
 # Generic Wine image based on Wine stable
 # ---------------------------------------
-FROM            ghcr.io/ptero-eggs/yolks:debian_trixie
+FROM            ghcr.io/neauzitii/yolks:debian_trixie
 
 LABEL           author="Michael Parker" maintainer="parker@pterodactyl.io"
 LABEL           org.opencontainers.image.licenses=MIT

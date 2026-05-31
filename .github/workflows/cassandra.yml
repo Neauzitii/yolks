@@ -35,4 +35,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/yolks:cassandra_${{ matrix.tag }}
+            ghcr.io/neauzitii/yolks:cassandra_${{ matrix.tag }}

@@ -37,4 +37,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/ptero-eggs/installers:${{ matrix.tag }}
+            ghcr.io/neauzitii/installers:${{ matrix.tag }}
